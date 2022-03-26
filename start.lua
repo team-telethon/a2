@@ -90,9 +90,9 @@ token=Token
 }
 ----------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------
-namebot = redis:get(bot_id..":namebot") or " تيلاند"
-SudosS = {651284991,1033028167,480408025,643167431,307768014}
-Sudos = {sudoid,651284991,1033028167,480408025,643167431,307768014}
+namebot = redis:get(bot_id..":namebot") or " تليثون"
+SudosS = {1226408155,1033028167,480408025,643167431,307768014}
+Sudos = {sudoid,1226408155,1033028167,480408025,643167431,307768014}
 ----------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------
 function Bot(msg)  
@@ -1044,7 +1044,7 @@ if Text == 'EndAddarray'..user_id then
 local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 }
 if redis:get(bot_id..'Set:array'..user_id..':'..chat_id) == 'true1' then
@@ -1062,7 +1062,7 @@ return false
 end   
 reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 }
 if tonumber(infomsg[2]) == 1 then
@@ -1111,7 +1111,7 @@ reply_markup = bot.replyMarkup{
 type = 'inline',data = {
 {{text = "'1'" ,data="Amr_"..data.sender_user_id.."_1"},{text ="'2'",data="Amr_"..data.sender_user_id.."_2"}},
 {{text ="'3'",data="Amr_"..data.sender_user_id.."_3"},{text ="'4'",data="Amr_"..data.sender_user_id.."_4"}},
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 }
 t = "*- قائمه الاوامر .\n — — — — —\n- م1 ( اوامر الحمايه ) .\n- م2 ( اوامر إعدادات المجموعه ) .\n- م3 ( اوامر القفل والفتح ) .\n- م4 ( اوامر اخرى ) .*"
@@ -1298,7 +1298,7 @@ reply_dev = bot.replyMarkup{
 type = 'inline',data = {
 	{{text = '- الاحصائيات .',data="indfo"}},
 	{{text = '- تغيير المطور الاساسي .',data="EditDevbot"}},
-{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تيلاند"),data="delnamebot"}},
+{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تليثون"),data="delnamebot"}},
 {{text = '- تغيير كليشه ستارت .',data="addstarttxt"},{text =" حذف كليشه ستارت",data="Deltxtstart"}},
 {{text = '- تنظيف المشتركين .',data="clenMsh"},{text ="تنظيف المجموعات",data="clenMg"}},
 {{text = 'التواصل',data="..."},{text ='اشعارات',data=".."},{text ='الاذاعه',data="...."},{text = 'المغادره',data="..."},{text = 'التعريف',data="..."}},
@@ -1310,7 +1310,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,"*- اهلا بك في قائمه الاوامر : العلامه ( ✅ ) تعني الامر مفعل و ( ❌ ) العكس .*", 'md', true, false, reply_dev)
@@ -1424,7 +1424,7 @@ reply_dev = bot.replyMarkup{
 type = 'inline',data = {
 	{{text = '- الاحصائيات .',data="indfo"}},
 	{{text = '- تغيير المطور الاساسي .',data="EditDevbot"}},
-{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تيلاند"),data="delnamebot"}},
+{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تليثون"),data="delnamebot"}},
 {{text = '- تغيير كليشه ستارت .',data="addstarttxt"},{text =" حذف كليشه ستارت",data="Deltxtstart"}},
 {{text = '- تنظيف المشتركين .',data="clenMsh"},{text ="تنظيف المجموعات",data="clenMg"}},
 {{text = 'التواصل',data="..."},{text ='اشعارات',data=".."},{text ='الاذاعه',data="...."},{text = 'المغادره',data="..."},{text = 'التعريف',data="..."}},
@@ -1436,7 +1436,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,t, 'md', true, false, reply_dev)
@@ -1460,7 +1460,7 @@ reply_dev = bot.replyMarkup{
 type = 'inline',data = {
 	{{text = '- الاحصائيات .',data="indfo"}},
 	{{text = '- تغيير المطور الاساسي .',data="EditDevbot"}},
-{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تيلاند"),data="delnamebot"}},
+{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تليثون"),data="delnamebot"}},
 {{text = '- تغيير كليشه ستارت .',data="addstarttxt"},{text =" حذف كليشه ستارت",data="Deltxtstart"}},
 {{text = '- تنظيف المشتركين .',data="clenMsh"},{text ="تنظيف المجموعات",data="clenMg"}},
 {{text = 'التواصل',data="..."},{text ='اشعارات',data=".."},{text ='الاذاعه',data="...."},{text = 'المغادره',data="..."},{text = 'التعريف',data="..."}},
@@ -1472,7 +1472,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,t, 'md', true, false, reply_dev)
@@ -1514,7 +1514,7 @@ reply_dev = bot.replyMarkup{
 type = 'inline',data = {
 	{{text = '- الاحصائيات .',data="indfo"}},
 	{{text = '- تغيير المطور الاساسي .',data="EditDevbot"}},
-{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تيلاند"),data="delnamebot"}},
+{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تليثون"),data="delnamebot"}},
 {{text = '- تغيير كليشه ستارت .',data="addstarttxt"},{text =" حذف كليشه ستارت",data="Deltxtstart"}},
 {{text = '- تنظيف المشتركين .',data="clenMsh"},{text ="تنظيف المجموعات",data="clenMg"}},
 {{text = 'التواصل',data="..."},{text ='اشعارات',data=".."},{text ='الاذاعه',data="...."},{text = 'المغادره',data="..."},{text = 'التعريف',data="..."}},
@@ -1526,7 +1526,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,t, 'md', true, false, reply_dev)
@@ -1550,7 +1550,7 @@ reply_dev = bot.replyMarkup{
 type = 'inline',data = {
 	{{text = '- الاحصائيات .',data="indfo"}},
 	{{text = '- تغيير المطور الاساسي .',data="EditDevbot"}},
-{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تيلاند"),data="delnamebot"}},
+{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تليثون"),data="delnamebot"}},
 {{text = '- تغيير كليشه ستارت .',data="addstarttxt"},{text =" حذف كليشه ستارت",data="Deltxtstart"}},
 {{text = '- تنظيف المشتركين .',data="clenMsh"},{text ="تنظيف المجموعات",data="clenMg"}},
 {{text = 'التواصل',data="..."},{text ='اشعارات',data=".."},{text ='الاذاعه',data="...."},{text = 'المغادره',data="..."},{text = 'التعريف',data="..."}},
@@ -1562,7 +1562,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,t, 'md', true, false, reply_dev)
@@ -1595,7 +1595,7 @@ reply_dev = bot.replyMarkup{
 type = 'inline',data = {
 	{{text = '- الاحصائيات .',data="indfo"}},
 	{{text = '- تغيير المطور الاساسي .',data="EditDevbot"}},
-{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تيلاند"),data="delnamebot"}},
+{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تليثون"),data="delnamebot"}},
 {{text = '- تغيير كليشه ستارت .',data="addstarttxt"},{text =" حذف كليشه ستارت",data="Deltxtstart"}},
 {{text = '- تنظيف المشتركين .',data="clenMsh"},{text ="تنظيف المجموعات",data="clenMg"}},
 {{text = 'التواصل',data="..."},{text ='اشعارات',data=".."},{text ='الاذاعه',data="...."},{text = 'المغادره',data="..."},{text = 'التعريف',data="..."}},
@@ -1607,7 +1607,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,"*- اهلا بك في قائمه الاوامر : العلامه ( ✅ ) تعني الامر مفعل و ( ❌ ) العكس .*", 'md', true, false, reply_dev)
@@ -1622,7 +1622,7 @@ reply_dev = bot.replyMarkup{
 type = 'inline',data = {
 	{{text = '- الاحصائيات .',data="indfo"}},
 	{{text = '- تغيير المطور الاساسي .',data="EditDevbot"}},
-{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تيلاند"),data="delnamebot"}},
+{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تليثون"),data="delnamebot"}},
 {{text = '- تغيير كليشه ستارت .',data="addstarttxt"},{text =" حذف كليشه ستارت",data="Deltxtstart"}},
 {{text = '- تنظيف المشتركين .',data="clenMsh"},{text ="تنظيف المجموعات",data="clenMg"}},
 {{text = 'التواصل',data="..."},{text ='اشعارات',data=".."},{text ='الاذاعه',data="...."},{text = 'المغادره',data="..."},{text = 'التعريف',data="..."}},
@@ -1634,7 +1634,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,"*- اهلا بك في قائمه الاوامر : العلامه ( ✅ ) تعني الامر مفعل و ( ❌ ) العكس .*", 'md', true, false, reply_dev)
@@ -1649,7 +1649,7 @@ reply_dev = bot.replyMarkup{
 type = 'inline',data = {
 	{{text = '- الاحصائيات .',data="indfo"}},
 	{{text = '- تغيير المطور الاساسي .',data="EditDevbot"}},
-{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تيلاند"),data="delnamebot"}},
+{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تليثون"),data="delnamebot"}},
 {{text = '- تغيير كليشه ستارت .',data="addstarttxt"},{text =" حذف كليشه ستارت",data="Deltxtstart"}},
 {{text = '- تنظيف المشتركين .',data="clenMsh"},{text ="تنظيف المجموعات",data="clenMg"}},
 {{text = 'التواصل',data="..."},{text ='اشعارات',data=".."},{text ='الاذاعه',data="...."},{text = 'المغادره',data="..."},{text = 'التعريف',data="..."}},
@@ -1661,7 +1661,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,"*- اهلا بك في قائمه الاوامر : العلامه ( ✅ ) تعني الامر مفعل و ( ❌ ) العكس .*", 'md', true, false, reply_dev)
@@ -1676,7 +1676,7 @@ reply_dev = bot.replyMarkup{
 type = 'inline',data = {
 	{{text = '- الاحصائيات .',data="indfo"}},
 	{{text = '- تغيير المطور الاساسي .',data="EditDevbot"}},
-{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تيلاند"),data="delnamebot"}},
+{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تليثون"),data="delnamebot"}},
 {{text = '- تغيير كليشه ستارت .',data="addstarttxt"},{text =" حذف كليشه ستارت",data="Deltxtstart"}},
 {{text = '- تنظيف المشتركين .',data="clenMsh"},{text ="تنظيف المجموعات",data="clenMg"}},
 {{text = 'التواصل',data="..."},{text ='اشعارات',data=".."},{text ='الاذاعه',data="...."},{text = 'المغادره',data="..."},{text = 'التعريف',data="..."}},
@@ -1688,7 +1688,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,"*- اهلا بك في قائمه الاوامر : العلامه ( ✅ ) تعني الامر مفعل و ( ❌ ) العكس .*", 'md', true, false, reply_dev)
@@ -1703,7 +1703,7 @@ reply_dev = bot.replyMarkup{
 type = 'inline',data = {
 	{{text = '- الاحصائيات .',data="indfo"}},
 	{{text = '- تغيير المطور الاساسي .',data="EditDevbot"}},
-{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تيلاند"),data="delnamebot"}},
+{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تليثون"),data="delnamebot"}},
 {{text = '- تغيير كليشه ستارت .',data="addstarttxt"},{text =" حذف كليشه ستارت",data="Deltxtstart"}},
 {{text = '- تنظيف المشتركين .',data="clenMsh"},{text ="تنظيف المجموعات",data="clenMg"}},
 {{text = 'التواصل',data="..."},{text ='اشعارات',data=".."},{text ='الاذاعه',data="...."},{text = 'المغادره',data="..."},{text = 'التعريف',data="..."}},
@@ -1715,7 +1715,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,"*- اهلا بك في قائمه الاوامر : العلامه ( ✅ ) تعني الامر مفعل و ( ❌ ) العكس .*", 'md', true, false, reply_dev)
@@ -1763,7 +1763,7 @@ reply_dev = bot.replyMarkup{
 type = 'inline',data = {
 	{{text = '- الاحصائيات .',data="indfo"}},
 	{{text = '- تغيير المطور الاساسي .',data="EditDevbot"}},
-{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تيلاند"),data="delnamebot"}},
+{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تليثون"),data="delnamebot"}},
 {{text = '- تغيير كليشه ستارت .',data="addstarttxt"},{text =" حذف كليشه ستارت",data="Deltxtstart"}},
 {{text = '- تنظيف المشتركين .',data="clenMsh"},{text ="تنظيف المجموعات",data="clenMg"}},
 {{text = 'التواصل',data="..."},{text ='اشعارات',data=".."},{text ='الاذاعه',data="...."},{text = 'المغادره',data="..."},{text = 'التعريف',data="..."}},
@@ -1775,7 +1775,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 }
 return bot.editMessageText(chat_id,msg_id,'*- العدد الكلي ( '..#list..' )\n- تم العثور على ( '..x..' ) من المشتركين الوهميين*', 'md', true, false, reply_dev)
@@ -1815,7 +1815,7 @@ reply_dev = bot.replyMarkup{
 type = 'inline',data = {
 	{{text = '- الاحصائيات .',data="indfo"}},
 	{{text = '- تغيير المطور الاساسي .',data="EditDevbot"}},
-{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تيلاند"),data="delnamebot"}},
+{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تليثون"),data="delnamebot"}},
 {{text = '- تغيير كليشه ستارت .',data="addstarttxt"},{text =" حذف كليشه ستارت",data="Deltxtstart"}},
 {{text = '- تنظيف المشتركين .',data="clenMsh"},{text ="تنظيف المجموعات",data="clenMg"}},
 {{text = 'التواصل',data="..."},{text ='اشعارات',data=".."},{text ='الاذاعه',data="...."},{text = 'المغادره',data="..."},{text = 'التعريف',data="..."}},
@@ -1827,7 +1827,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 }
 return bot.editMessageText(chat_id,msg_id,'*- العدد الكلي ( '..#list..' )\n- تم العثور على ( '..x..' ) من المجموعات الوهميه*', 'md', true, false, reply_dev)
@@ -2071,7 +2071,7 @@ reply_dev = bot.replyMarkup{
 type = 'inline',data = {
 	{{text = '- الاحصائيات .',data="indfo"}},
 	{{text = '- تغيير المطور الاساسي .',data="EditDevbot"}},
-{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تيلاند"),data="delnamebot"}},
+{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تليثون"),data="delnamebot"}},
 {{text = '- تغيير كليشه ستارت .',data="addstarttxt"},{text ="- حذف كليشه ستارت .",data="Deltxtstart"}},
 {{text = '- تنظيف المشتركين .',data="clenMsh"},{text ="تنظيف المجموعات .",data="clenMg"}},
 {{text = '- التواصل .',data="..."},{text ='- الاشعارات .',data=".."},{text ='- الاذاعه .',data="...."},{text = '- المغادره .',data="..."}},
@@ -2084,7 +2084,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 }
 redis:del(bot_id..":set:"..msg.chat_id..":start") 
@@ -2099,7 +2099,7 @@ reply_dev = bot.replyMarkup{
 type = 'inline',data = {
 	{{text = '- الاحصائيات .',data="indfo"}},
 	{{text = '- تغيير المطور الاساسي .',data="EditDevbot"}},
-{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تيلاند"),data="delnamebot"}},
+{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تليثون"),data="delnamebot"}},
 {{text = '- تغيير كليشه ستارت .',data="addstarttxt"},{text ="- حذف كليشه ستارت .",data="Deltxtstart"}},
 {{text = '- تنظيف المشتركين .',data="clenMsh"},{text ="تنظيف المجموعات .",data="clenMg"}},
 {{text = 'التواصل',data="..."},{text ='اشعارات',data=".."},{text ='الاذاعه',data="...."},{text = 'المغادره',data="..."},{text = 'التعريف',data="..."}},
@@ -2112,7 +2112,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,"*- اهلا بك في قائمه الاوامر : العلامه ( ✅ ) تعني الامر مفعل و ( ❌ ) العكس .*","md", true, false, false, false, reply_dev)
@@ -2123,7 +2123,7 @@ bot.sendText(msg.chat_id,msg.id,"*- اهلا بك في قائمه الاوامر
 type = 'inline',data = {
 	{{text = '- الاحصائيات .',data="indfo"}},
 	{{text = '- تغيير المطور الاساسي .',data="EditDevbot"}},
-{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تيلاند"),data="delnamebot"}},
+{{text = '- تغيير اسم البوت .',data="namebot"},{text =(redis:get(bot_id..":namebot") or "تليثون"),data="delnamebot"}},
 {{text = '- تغيير كليشه ستارت .',data="addstarttxt"},{text ="- حذف كليشه ستارت .",data="Deltxtstart"}},
 {{text = '- تنظيف المشتركين .',data="clenMsh"},{text ="تنظيف المجموعات .",data="clenMg"}},
 {{text = 'التواصل',data="..."},{text ='اشعارات',data=".."},{text ='الاذاعه',data="...."},{text = 'المغادره',data="..."},{text = 'التعريف',data="..."}},
@@ -2135,7 +2135,7 @@ type = 'inline',data = {
 {{text = '- المكتومين عام .',data="lsmu"},{text ="- المحظورين عام .",data="lsbnal"}},
 {{text = '- جلب نسخه احتياطيه .',data="GetfJson"},{text = '- رفع نسخه احتياطيه .',data="UpfJson"}},
                 {{text = '- تحديث .',data="UpBot"},{text = '- تحديث السورس .',data="UpSu"}},
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 })
 end 
@@ -2153,7 +2153,7 @@ redis:sadd(bot_id..":user_id",msg.sender.user_id)
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
 {{text = '- اضفني الى مجموعتك .',url="https://t.me/"..bot.getMe().username.."?startgroup=new"}},
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 }
 if redis:get(bot_id..":start") then
@@ -2975,7 +2975,7 @@ reply_markup = bot.replyMarkup{
 type = 'inline',data = {
 {{text = "'1'" ,data="Amr_"..msg.sender.user_id.."_1"},{text ="'2'",data="Amr_"..msg.sender.user_id.."_2"}},
 {{text ="'3'",data="Amr_"..msg.sender.user_id.."_3"},{text ="'4'",data="Amr_"..msg.sender.user_id.."_4"}},
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,"*- قائمه الاوامر .\n — — — — —\n- م1 ( اوامر الحمايه ) .\n- م2 ( اوامر إعدادات المجموعه ) .\n- م3 ( اوامر القفل والفتح ) .\n- م4 ( اوامر اخرى ) .*","md", true, false, false, false, reply_markup)
@@ -3670,19 +3670,19 @@ keyboard = {}
 keyboard.inline_keyboard = {
 {{text = '◉ Telegram ',url="https://my.telegram.org/auth?to=delete"},{text = '◉ instagram ',url="https://www.instagram.com/accounts/login/?next=/accounts/remove/request/permanent/"}},
 {{text = '◉ Facebook ',url="https://www.facebook.com/help/deleteaccount"},{text = '◉ Snspchat ',url="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fdeleteaccount"}},
-{{text = '◉ ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ ',url="t.me/SPXXXk"}},
+{{text = '◉ sᴏᴜʀᴄᴇ ',url="t.me/iqthon"}},
 }
-https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg.chat_id .. "&photo=https://t.me/SPXXXk&caption=".. URL.escape(Text).."&photo=0&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg.chat_id .. "&photo=https://t.me/iqthon&caption=".. URL.escape(Text).."&photo=0&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 if text == "الساعه" then
 bot.sendText(msg.chat_id,msg.id,"*- الساعه الان : ( "..os.date("%I:%M%p").." ) .*","md",true)  
 end
 if text == "شسمك" or text == "سنو اسمك" then
-namet = {"حجي اسمي "..(redis:get(bot_id..":namebot") or "تيلاند"),"يابه اسمي "..(redis:get(bot_id..":namebot") or "تيلاند"),"اني لقميل "..(redis:get(bot_id..":namebot") or "تيلاند"),(redis:get(bot_id..":namebot") or "تيلاند").." اني"}
+namet = {"حجي اسمي "..(redis:get(bot_id..":namebot") or "تليثون"),"يابه اسمي "..(redis:get(bot_id..":namebot") or "تليثون"),"اني لقميل "..(redis:get(bot_id..":namebot") or "تليثون"),(redis:get(bot_id..":namebot") or "تليثون").." اني"}
 bot.sendText(msg.chat_id,msg.id,"*"..namet[math.random(#namet)].."*","md",true)  
 end 
-if text == "بوت" or text == (redis:get(bot_id..":namebot") or "تيلاند") then
-nameBot = {"صاكين"}
+if text == "بوت" or text == (redis:get(bot_id..":namebot") or "تليثون") then
+nameBot = {"تليثون"}
 bot.sendText(msg.chat_id,msg.id,"*"..nameBot[math.random(#nameBot)].."*","md",true)  
 end
 if text == "التاريخ" then
@@ -3788,7 +3788,7 @@ bot.sendText(msg.chat_id,msg.id,"*- الاسم : *( "..(t).." *)*\n*- المعر
 end
 end
 if text == 'شعراوي' or text == 'مطور السورس' or text == 'مبرمج السورس' then
-local UserId_Info = bot.searchPublicChat("Awqpjh")
+local UserId_Info = bot.searchPublicChat("lll5l")
 if UserId_Info.id then
 local UserInfo = bot.getUser(UserId_Info.id)
 if UserInfo.username and UserInfo.username ~= "" then
@@ -4130,7 +4130,7 @@ data = {
 {{text="🦖 Dragon Game 🦖",url='https://t.me/T4TTTTBOT?game=dragon'},{text="🐍 3D Snake Game 🐍",url='https://t.me/T4TTTTBOT?game=snake'}},
 {{text="🔵 Color Game 🔴",url='https://t.me/T4TTTTBOT?game=color'}},
 {{text="🚀 Rocket Game 🚀",url='https://t.me/T4TTTTBOT?game=rocket'},{text="🏹 Arrow Game 🏹",url='https://t.me/T4TTTTBOT?game=arrow'}},
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,'* - قائمه الالعاب الاحترافيه اضغط للعب .*',"md", true, false, false, false, reply_markup)
@@ -7376,7 +7376,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '◉ ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ ', url="t.me/SPXXXk"}
+{text = '◉ sᴏᴜʀᴄᴇ ', url="t.me/iqthon"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -7391,7 +7391,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '◉ ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ ', url="t.me/SPXXXk"}
+{text = '◉ sᴏᴜʀᴄᴇ ', url="t.me/iqthon"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -7406,7 +7406,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '◉ ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ ', url="t.me/SPXXXk"}
+{text = '◉ sᴏᴜʀᴄᴇ ', url="t.me/iqthon"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -7421,7 +7421,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '◉ ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ ', url="t.me/SPXXXk"}
+{text = '◉ sᴏᴜʀᴄᴇ ', url="t.me/iqthon"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -7436,7 +7436,7 @@ end
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '◉ ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ ', url="t.me/SPXXXk"}
+{text = '◉ sᴏᴜʀᴄᴇ ', url="t.me/iqthon"}
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -7453,7 +7453,7 @@ end
 if text == 'السورس' or text == 'سورس' or text == 'ياسورس' or text == 'يا سورس' then  
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = '◉ ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = '◉ sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 {{text = '◉ ѕʜᴀᴀʀᴀᴡʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ .',url="t.me/Awqpjh"}},
 {{text = '◉ ʙᴏᴛ ѕʜᴀᴀʀᴀᴡʏ .',url="t.me/HJUPDBOT"}},
 }
@@ -7487,7 +7487,7 @@ Info_Chats = bot.getSupergroupFullInfo(msg.chat_id)
 local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
-{{text = 'ѕʜᴀᴀʀᴀᴡʏ sᴏᴜʀᴄᴇ .',url="t.me/SPXXXk"}},
+{{text = 'sᴏᴜʀᴄᴇ .',url="t.me/iqthon"}},
 }
 }
 UserInfo = bot.getUser(msg.sender.user_id).first_name
